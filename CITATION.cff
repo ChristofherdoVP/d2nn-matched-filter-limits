@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "PHOTON ROAD: diffractive optical processing of Ca II 854.2 nm Stokes V"
+version: "1.0.0"
+date-released: "2026-12-01"
+license: MIT
+repository-code: "https://github.com/ChristofherdoVP/d2nn-matched-filter-limits"
+authors:
+  - family-names: "do Vale Pena"
+    given-names: "Christofher"
+    orcid: "https://orcid.org/0000-0003-1121-8374"
+    affiliation: "Instituto Nacional de Pesquisas Espaciais (INPE)"
+    email: "christofher.pena@inpe.br"
+  - family-names: "Guarnieri"
+    given-names: "Fernando Luís"
+    orcid: "https://orcid.org/0009-0007-2353-2594"
+    affiliation: "Instituto Nacional de Pesquisas Espaciais (INPE)"
+  - family-names: "Vieira"
+    given-names: "Luis Eduardo Antunes"
+    orcid: "https://orcid.org/0000-0002-9376-475X"
+    affiliation: "Instituto Nacional de Pesquisas Espaciais (INPE)"
+# Depois de publicar no Zenodo, acrescente:
+# doi: "10.5281/zenodo.XXXXXXX"

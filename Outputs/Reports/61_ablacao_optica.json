@@ -1,0 +1,594 @@
+{
+  "generated_at": "2026-10-22T13:07:17.347726+00:00",
+  "data": {
+    "variantes": [
+      "V0 treinado",
+      "V1 vórtice estático",
+      "V2 só pupila",
+      "V3 fase aleatória",
+      "V4 Δφ × 10"
+    ],
+    "modelos": {
+      "47": {
+        "titulo": "D²NN 47 (intensidade, legado)",
+        "instrumental": "legado",
+        "arquitetura": "D2NN",
+        "beta_ref": null,
+        "fases": {
+          "pixels_pupila": 3599,
+          "camada1": {
+            "std_dphi": 0.002704538404941559,
+            "max_abs_dphi": 0.019550280645489693,
+            "std_fase_base": 2.190000534057617
+          },
+          "camada2": {
+            "std_dphi": 0.002704538870602846,
+            "max_abs_dphi": 0.019550319761037827,
+            "std_fase_base": 0.0
+          },
+          "camada3": {
+            "std_dphi": 0.0027045393362641335,
+            "max_abs_dphi": 0.019550366327166557,
+            "std_fase_base": 0.0
+          },
+          "max_dif_entre_camadas": 2.9569491744041443e-07,
+          "dphi_total": {
+            "std": 0.008113617077469826,
+            "max_abs": 0.058650970458984375
+          }
+        },
+        "ablacao": {
+          "V0 treinado": {
+            "acuracia": 75.23333333333333,
+            "por_classe": [
+              82.6,
+              45.7,
+              97.4
+            ],
+            "matriz": [
+              [
+                826,
+                172,
+                2
+              ],
+              [
+                539,
+                457,
+                4
+              ],
+              [
+                10,
+                16,
+                974
+              ]
+            ],
+            "mcnemar_vs_V0": null
+          },
+          "V1 vórtice estático": {
+            "acuracia": 75.16666666666667,
+            "por_classe": [
+              82.5,
+              45.6,
+              97.4
+            ],
+            "matriz": [
+              [
+                825,
+                173,
+                2
+              ],
+              [
+                540,
+                456,
+                4
+              ],
+              [
+                10,
+                16,
+                974
+              ]
+            ],
+            "mcnemar_vs_V0": {
+              "b_A_acerta_B_erra": 5,
+              "c_A_erra_B_acerta": 7,
+              "diferenca_pp": -0.06666666666665932,
+              "estatistica": NaN,
+              "p_valor": 0.7744140625,
+              "metodo": "binomial exato",
+              "significativo_5pct": false
+            }
+          },
+          "V2 só pupila": {
+            "acuracia": 75.1,
+            "por_classe": [
+              80.7,
+              47.1,
+              97.5
+            ],
+            "matriz": [
+              [
+                807,
+                191,
+                2
+              ],
+              [
+                520,
+                471,
+                9
+              ],
+              [
+                9,
+                16,
+                975
+              ]
+            ],
+            "mcnemar_vs_V0": {
+              "b_A_acerta_B_erra": 40,
+              "c_A_erra_B_acerta": 44,
+              "diferenca_pp": -0.13333333333332975,
+              "estatistica": 0.10714285714285714,
+              "p_valor": 0.7434206976952524,
+              "metodo": "χ² com correção de continuidade",
+              "significativo_5pct": false
+            }
+          },
+          "V3 fase aleatória": {
+            "acuracia": 33.800000000000004,
+            "por_classe": [
+              99.8,
+              0.1,
+              1.5
+            ],
+            "matriz": [
+              [
+                998,
+                2,
+                0
+              ],
+              [
+                999,
+                1,
+                0
+              ],
+              [
+                299,
+                686,
+                15
+              ]
+            ],
+            "mcnemar_vs_V0": {
+              "b_A_acerta_B_erra": 174,
+              "c_A_erra_B_acerta": 1417,
+              "diferenca_pp": -41.43333333333333,
+              "estatistica": 969.5562539283469,
+              "p_valor": 7.442884601435172e-213,
+              "metodo": "χ² com correção de continuidade",
+              "significativo_5pct": true
+            }
+          },
+          "V4 Δφ × 10": {
+            "acuracia": 75.1,
+            "por_classe": [
+              83.5,
+              44.7,
+              97.1
+            ],
+            "matriz": [
+              [
+                835,
+                164,
+                1
+              ],
+              [
+                547,
+                447,
+                6
+              ],
+              [
+                13,
+                16,
+                971
+              ]
+            ],
+            "mcnemar_vs_V0": {
+              "b_A_acerta_B_erra": 39,
+              "c_A_erra_B_acerta": 43,
+              "diferenca_pp": -0.13333333333332975,
+              "estatistica": 0.10975609756097561,
+              "p_valor": 0.7404219862495938,
+              "metodo": "χ² com correção de continuidade",
+              "significativo_5pct": false
+            }
+          }
+        }
+      },
+      "57": {
+        "titulo": "D²NN 57 (intensidade, v2)",
+        "instrumental": "v2",
+        "arquitetura": "D2NN",
+        "beta_ref": null,
+        "fases": {
+          "pixels_pupila": 3599,
+          "camada1": {
+            "std_dphi": 0.002182208700105548,
+            "max_abs_dphi": 0.035266902297735214,
+            "std_fase_base": 2.190000534057617
+          },
+          "camada2": {
+            "std_dphi": 0.0021822089329361916,
+            "max_abs_dphi": 0.03526690602302551,
+            "std_fase_base": 0.0
+          },
+          "camada3": {
+            "std_dphi": 0.002182209165766835,
+            "max_abs_dphi": 0.03526690974831581,
+            "std_fase_base": 0.0
+          },
+          "max_dif_entre_camadas": 2.6868656277656555e-07,
+          "dphi_total": {
+            "std": 0.006546626798808575,
+            "max_abs": 0.10580071806907654
+          }
+        },
+        "ablacao": {
+          "V0 treinado": {
+            "acuracia": 76.4,
+            "por_classe": [
+              94.1,
+              36.9,
+              98.2
+            ],
+            "matriz": [
+              [
+                941,
+                59,
+                0
+              ],
+              [
+                631,
+                369,
+                0
+              ],
+              [
+                0,
+                18,
+                982
+              ]
+            ],
+            "mcnemar_vs_V0": null
+          },
+          "V1 vórtice estático": {
+            "acuracia": 76.3,
+            "por_classe": [
+              94.0,
+              36.7,
+              98.2
+            ],
+            "matriz": [
+              [
+                940,
+                60,
+                0
+              ],
+              [
+                633,
+                367,
+                0
+              ],
+              [
+                0,
+                18,
+                982
+              ]
+            ],
+            "mcnemar_vs_V0": {
+              "b_A_acerta_B_erra": 0,
+              "c_A_erra_B_acerta": 3,
+              "diferenca_pp": -0.10000000000000009,
+              "estatistica": NaN,
+              "p_valor": 0.25,
+              "metodo": "binomial exato",
+              "significativo_5pct": false
+            }
+          },
+          "V2 só pupila": {
+            "acuracia": 76.3,
+            "por_classe": [
+              93.9,
+              36.8,
+              98.2
+            ],
+            "matriz": [
+              [
+                939,
+                61,
+                0
+              ],
+              [
+                632,
+                368,
+                0
+              ],
+              [
+                0,
+                18,
+                982
+              ]
+            ],
+            "mcnemar_vs_V0": {
+              "b_A_acerta_B_erra": 1,
+              "c_A_erra_B_acerta": 4,
+              "diferenca_pp": -0.10000000000000009,
+              "estatistica": NaN,
+              "p_valor": 0.375,
+              "metodo": "binomial exato",
+              "significativo_5pct": false
+            }
+          },
+          "V3 fase aleatória": {
+            "acuracia": 70.23333333333333,
+            "por_classe": [
+              99.5,
+              17.2,
+              94.0
+            ],
+            "matriz": [
+              [
+                995,
+                5,
+                0
+              ],
+              [
+                828,
+                172,
+                0
+              ],
+              [
+                0,
+                60,
+                940
+              ]
+            ],
+            "mcnemar_vs_V0": {
+              "b_A_acerta_B_erra": 54,
+              "c_A_erra_B_acerta": 239,
+              "diferenca_pp": -6.166666666666664,
+              "estatistica": 115.54948805460751,
+              "p_valor": 5.965173158323299e-27,
+              "metodo": "χ² com correção de continuidade",
+              "significativo_5pct": true
+            }
+          },
+          "V4 Δφ × 10": {
+            "acuracia": 76.53333333333333,
+            "por_classe": [
+              94.1,
+              37.3,
+              98.2
+            ],
+            "matriz": [
+              [
+                941,
+                59,
+                0
+              ],
+              [
+                627,
+                373,
+                0
+              ],
+              [
+                0,
+                18,
+                982
+              ]
+            ],
+            "mcnemar_vs_V0": {
+              "b_A_acerta_B_erra": 10,
+              "c_A_erra_B_acerta": 6,
+              "diferenca_pp": 0.13333333333332975,
+              "estatistica": NaN,
+              "p_valor": 0.454498291015625,
+              "metodo": "binomial exato",
+              "significativo_5pct": false
+            }
+          }
+        }
+      },
+      "59": {
+        "titulo": "D²NN 59 (homodina, v2, polaridade +)",
+        "instrumental": "v2",
+        "arquitetura": "D2NNHomodina",
+        "beta_ref": 0.27340248227119446,
+        "fases": {
+          "pixels_pupila": 3599,
+          "camada1": {
+            "std_dphi": 0.009584460407495499,
+            "max_abs_dphi": 0.0760384202003479,
+            "std_fase_base": 2.190000534057617
+          },
+          "camada2": {
+            "std_dphi": 0.009584460407495499,
+            "max_abs_dphi": 0.0760384052991867,
+            "std_fase_base": 0.0
+          },
+          "camada3": {
+            "std_dphi": 0.009584459476172924,
+            "max_abs_dphi": 0.0760384202003479,
+            "std_fase_base": 0.0
+          },
+          "max_dif_entre_camadas": 1.2163372048235033e-05,
+          "dphi_total": {
+            "std": 0.028753381222486496,
+            "max_abs": 0.2281152456998825
+          }
+        },
+        "ablacao": {
+          "V0 treinado": {
+            "acuracia": 90.06666666666666,
+            "por_classe": [
+              87.9,
+              82.9,
+              99.4
+            ],
+            "matriz": [
+              [
+                879,
+                121,
+                0
+              ],
+              [
+                171,
+                829,
+                0
+              ],
+              [
+                0,
+                6,
+                994
+              ]
+            ],
+            "mcnemar_vs_V0": null
+          },
+          "V1 vórtice estático": {
+            "acuracia": 89.63333333333333,
+            "por_classe": [
+              91.0,
+              79.7,
+              98.2
+            ],
+            "matriz": [
+              [
+                910,
+                90,
+                0
+              ],
+              [
+                203,
+                797,
+                0
+              ],
+              [
+                0,
+                18,
+                982
+              ]
+            ],
+            "mcnemar_vs_V0": {
+              "b_A_acerta_B_erra": 31,
+              "c_A_erra_B_acerta": 44,
+              "diferenca_pp": -0.43333333333333,
+              "estatistica": 1.92,
+              "p_valor": 0.16585666034290605,
+              "metodo": "χ² com correção de continuidade",
+              "significativo_5pct": false
+            }
+          },
+          "V2 só pupila": {
+            "acuracia": 89.63333333333333,
+            "por_classe": [
+              91.0,
+              79.6,
+              98.3
+            ],
+            "matriz": [
+              [
+                910,
+                90,
+                0
+              ],
+              [
+                204,
+                796,
+                0
+              ],
+              [
+                0,
+                17,
+                983
+              ]
+            ],
+            "mcnemar_vs_V0": {
+              "b_A_acerta_B_erra": 31,
+              "c_A_erra_B_acerta": 44,
+              "diferenca_pp": -0.43333333333333,
+              "estatistica": 1.92,
+              "p_valor": 0.16585666034290605,
+              "metodo": "χ² com correção de continuidade",
+              "significativo_5pct": false
+            }
+          },
+          "V3 fase aleatória": {
+            "acuracia": 32.53333333333333,
+            "por_classe": [
+              97.6,
+              0.0,
+              0.0
+            ],
+            "matriz": [
+              [
+                976,
+                24,
+                0
+              ],
+              [
+                1000,
+                0,
+                0
+              ],
+              [
+                1000,
+                0,
+                0
+              ]
+            ],
+            "mcnemar_vs_V0": {
+              "b_A_acerta_B_erra": 121,
+              "c_A_erra_B_acerta": 1847,
+              "diferenca_pp": -57.533333333333324,
+              "estatistica": 1512.0045731707316,
+              "p_valor": 0.0,
+              "metodo": "χ² com correção de continuidade",
+              "significativo_5pct": true
+            }
+          },
+          "V4 Δφ × 10": {
+            "acuracia": 76.0,
+            "por_classe": [
+              80.8,
+              85.6,
+              61.6
+            ],
+            "matriz": [
+              [
+                808,
+                192,
+                0
+              ],
+              [
+                143,
+                856,
+                1
+              ],
+              [
+                83,
+                301,
+                616
+              ]
+            ],
+            "mcnemar_vs_V0": {
+              "b_A_acerta_B_erra": 86,
+              "c_A_erra_B_acerta": 508,
+              "diferenca_pp": -14.066666666666661,
+              "estatistica": 298.3855218855219,
+              "p_valor": 7.404826504185691e-67,
+              "metodo": "χ² com correção de continuidade",
+              "significativo_5pct": true
+            }
+          }
+        }
+      }
+    },
+    "figura": "C:\\Users\\chris\\D²NN-Stokes-CaII\\Outputs\\Figures\\cel61_fase_aprendida.png"
+  }
+}

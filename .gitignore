@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Dados grandes ou externos (não versionar)
+Data/RAW_SST/
+Data/Processed/
+Data/H5/
+Data/Synthetic/
+*.fits
+*.fts
+*.h5
+*.npy
+*.npz
+
+# Checkpoints: só os dois usados no artigo B são versionados
+CheckPoints/*.pt
+!CheckPoints/modelo_d2nn_optico_v2.pt
+!CheckPoints/modelo_d2nn_complexo_v2.pt
+!CheckPoints/modelo_d2nn_degradado_aug.pt
+!CheckPoints/modelo_d2nn_inst_v2.pt
+!CheckPoints/modelo_d2nn_homodino_v2.pt
+
+# Figuras geradas (reproduzíveis pelo script 77)
+Outputs/Figures/
+
+# Notebook antigo do Colab e projeto separado
+*Colab*.ipynb
+ZEEMAN-LAB/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
