@@ -19,5 +19,4 @@ authors:
     given-names: "Luis Eduardo Antunes"
     orcid: "https://orcid.org/0000-0002-9376-475X"
     affiliation: "Instituto Nacional de Pesquisas Espaciais (INPE)"
-# Depois de publicar no Zenodo, acrescente:
-# doi: "10.5281/zenodo.XXXXXXX"
+doi: "10.5281/zenodo.23649528"
